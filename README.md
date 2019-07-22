@@ -1,6 +1,6 @@
 # SplitEaT
-Order once and split payment
- This project aims to create an application where you and your friends can order food without wondering how properly split the bills at everyone. You can create an order throughout add  meals to order and automatically get link to share with your friends. Now your friends may add meals to your order and everyone will get separate bill.
+###Order once and split payment
+This project aims to create an application where you and your friends can order food without wondering how properly split the bills at everyone. You can create an order throughout add  meals to order and automatically get link to share with your friends. Now your friends may add meals to your order and everyone will get separate bill.
 
 Application is still in develop mode
 
