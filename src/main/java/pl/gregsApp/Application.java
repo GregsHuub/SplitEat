@@ -1,6 +1,7 @@
 package pl.gregsApp;
 
 import io.swagger.models.Contact;
+import org.apache.logging.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -43,5 +44,8 @@ public class Application {
                 .contact(String.valueOf(contact))
                 .build();
     }
+
+
+
 
 }
