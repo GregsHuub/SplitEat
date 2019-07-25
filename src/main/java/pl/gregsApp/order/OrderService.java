@@ -38,15 +38,15 @@ public class OrderService {
         for (Dish dish : OrderService.dishes) {
             result += dish.getPrice();
         }
-        Set<Dish> dupa = new HashSet<>();
+        Set<Dish> setOfDishes = new HashSet<>();
 
         for (Dish dish : dishes) {
-            dupa.add(dish);
+            setOfDishes.add(dish);
         }
         order.setSumValue(result);
-        order.setDishes(dupa);
+        order.setDishes(setOfDishes);
         order.setStatusOfOrder("W trakcie realizacji, damy znać :)");
-        order.setOrderContent(dishes.stream().map(d -> d.getNameOfDish()).collect(Collectors.joining(" ,")));
+        order.setOrderContent(dishes.stream().map(dish -> dish.getNameOfDish()).collect(Collectors.joining(" ,")));
         order.setDishes(OrderService.dishes);
         dishes = new HashSet<>();
         orderRepository.save(order);

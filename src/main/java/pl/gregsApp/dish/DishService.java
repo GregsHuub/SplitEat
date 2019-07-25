@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.gregsApp.category.Category;
 import pl.gregsApp.category.CategoryRepository;
+import pl.gregsApp.pdfMaker.PdfCreate;
 
 import javax.transaction.Transactional;
 import java.util.List;

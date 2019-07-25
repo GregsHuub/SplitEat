@@ -1,5 +1,7 @@
 package pl.gregsApp.controllers;
 
+import com.fasterxml.jackson.databind.util.JSONPObject;
+import com.itextpdf.text.DocumentException;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -10,8 +12,12 @@ import pl.gregsApp.dish.DishDto;
 import pl.gregsApp.dish.DishRepository;
 import pl.gregsApp.dish.DishService;
 import pl.gregsApp.order.OrderRepository;
+import pl.gregsApp.pdfMaker.PdfCreate;
 
+import java.io.FileNotFoundException;
 import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 
 @Controller
 @RequestMapping("/api/dish")
@@ -63,7 +69,16 @@ public class DishController {
 
     @GetMapping("/dishList")
     public String showDishList(Model model){
-        model.addAttribute("dishes", dishRepository.findAll());
+        Model dishesFound = model.addAttribute("dishes", dishRepository.findAll());
+        PdfCreate pdfCreate = new PdfCreate();
+        try {
+            pdfCreate.pdfPrinterItext(dishesFound.toString(), "List");
+
+        } catch (FileNotFoundException | DocumentException e) {
+            e.printStackTrace();
+        }
+
         return "dishListForUsers";
     }
+
 }

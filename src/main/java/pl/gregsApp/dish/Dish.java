@@ -79,4 +79,9 @@ public class Dish {
     public void setOrder(Order order) {
         this.order = order;
     }
+
+    @Override // edit for PDF
+    public String toString() {
+        return "\n" + id + " ." + nameOfDish + " ," + description+ " ," + price + " zl " + calories+ " kcal " + category + "\n";
+    }
 }
