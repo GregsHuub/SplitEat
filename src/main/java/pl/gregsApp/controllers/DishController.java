@@ -69,16 +69,21 @@ public class DishController {
 
     @GetMapping("/dishList")
     public String showDishList(Model model){
-        Model dishesFound = model.addAttribute("dishes", dishRepository.findAll());
-        PdfCreate pdfCreate = new PdfCreate();
-        try {
-            pdfCreate.pdfPrinterItext(dishesFound.toString(), "List");
-
-        } catch (FileNotFoundException | DocumentException e) {
-            e.printStackTrace();
-        }
+        model.addAttribute("dishes", dishRepository.findAll());
 
         return "dishListForUsers";
     }
+    @ModelAttribute("makePdf") // pdf do poprawy, cos nie gra todo
+    public void makePdf(Model model){
+        Model pdfModel = model.addAttribute("pdf", dishRepository.findAll());
+        PdfCreate pdfCreate = new PdfCreate();
+        try{
+            pdfCreate.pdfPrinterItext(pdfModel.toString(), "List");
+        } catch (FileNotFoundException | DocumentException e){
+            e.printStackTrace();
+        }
+
+    }
+
 
 }

@@ -1,341 +1,356 @@
-2019-07-25 15:49:59,651 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Application on greg-hp with PID 7819 (/home/greghp/Pulpit/SplitEatApplication/target/classes started by greghp in /home/greghp/Pulpit/SplitEatApplication)
-2019-07-25 15:49:59,660 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
-2019-07-25 15:49:59,742 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-07-25 15:49:59,743 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-07-25 15:50:00,603 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
-2019-07-25 15:50:00,680 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 69ms. Found 7 repository interfaces.
-2019-07-25 15:50:01,291 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7fc308af] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-25 15:50:01,377 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ff4355e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-07-25 15:50:01,820 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
-2019-07-25 15:50:01,836 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
-2019-07-25 15:50:01,848 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
-2019-07-25 15:50:01,849 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-25 15:50:02,108 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-2019-07-25 15:50:02,120 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
-2019-07-25 15:50:02,120 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2376 ms
-2019-07-25 15:50:02,327 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
-2019-07-25 15:50:02,492 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
-2019-07-25 15:50:02,538 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+2019-07-27 22:56:36,948 INFO o.s.b.StartupInfoLogger [restartedMain] Starting Application on greg-hp with PID 10124 (/home/greghp/Pulpit/SplitEatApplication/target/classes started by greghp in /home/greghp/Pulpit/SplitEatApplication)
+2019-07-27 22:56:36,957 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-07-27 22:56:37,037 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-27 22:56:37,038 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-27 22:56:37,859 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-27 22:56:37,971 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 100ms. Found 7 repository interfaces.
+2019-07-27 22:56:38,853 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c60f1aee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-27 22:56:39,016 INFO o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$458f6820] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-27 22:56:39,692 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2019-07-27 22:56:39,716 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2019-07-27 22:56:39,732 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2019-07-27 22:56:39,733 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-27 22:56:40,122 INFO o.a.j.l.DirectJDKLog [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-27 22:56:40,139 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-07-27 22:56:40,140 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3102 ms
+2019-07-27 22:56:40,360 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2019-07-27 22:56:40,527 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2019-07-27 22:56:40,577 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2019-07-25 15:50:02,585 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.3.10.Final}
-2019-07-25 15:50:02,586 INFO o.h.c.Environment [restartedMain] HHH000206: hibernate.properties not found
-2019-07-25 15:50:02,694 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-2019-07-25 15:50:02,711 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@26be8436
-2019-07-25 15:50:02,712 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@26be8436
-2019-07-25 15:50:02,712 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@26be8436
-2019-07-25 15:50:02,713 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@8320d5
-2019-07-25 15:50:02,713 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration true_false -> org.hibernate.type.TrueFalseType@652c3d3c
-2019-07-25 15:50:02,714 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration yes_no -> org.hibernate.type.YesNoType@226d2d1f
-2019-07-25 15:50:02,715 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@733a995e
-2019-07-25 15:50:02,716 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@733a995e
-2019-07-25 15:50:02,716 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@733a995e
-2019-07-25 15:50:02,717 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration character -> org.hibernate.type.CharacterType@9744edd
-2019-07-25 15:50:02,717 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char -> org.hibernate.type.CharacterType@9744edd
-2019-07-25 15:50:02,717 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@9744edd
-2019-07-25 15:50:02,718 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@19c0c92c
-2019-07-25 15:50:02,719 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@19c0c92c
-2019-07-25 15:50:02,719 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@19c0c92c
-2019-07-25 15:50:02,720 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration integer -> org.hibernate.type.IntegerType@14842e3e
-2019-07-25 15:50:02,720 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration int -> org.hibernate.type.IntegerType@14842e3e
-2019-07-25 15:50:02,720 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@14842e3e
-2019-07-25 15:50:02,721 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@2a43c167
-2019-07-25 15:50:02,721 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@2a43c167
-2019-07-25 15:50:02,722 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Long -> org.hibernate.type.LongType@2a43c167
-2019-07-25 15:50:02,723 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@4b2ba10
-2019-07-25 15:50:02,723 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@4b2ba10
-2019-07-25 15:50:02,723 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4b2ba10
-2019-07-25 15:50:02,724 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@236cabfa
-2019-07-25 15:50:02,724 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@236cabfa
-2019-07-25 15:50:02,724 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@236cabfa
-2019-07-25 15:50:02,725 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7c0ee919
-2019-07-25 15:50:02,726 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7c0ee919
-2019-07-25 15:50:02,726 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@5efabe19
-2019-07-25 15:50:02,727 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@5efabe19
-2019-07-25 15:50:02,727 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration string -> org.hibernate.type.StringType@4f5f9e48
-2019-07-25 15:50:02,728 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.String -> org.hibernate.type.StringType@4f5f9e48
-2019-07-25 15:50:02,728 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3d35d460
-2019-07-25 15:50:02,729 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2a837b40
-2019-07-25 15:50:02,730 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration url -> org.hibernate.type.UrlType@31fdfb56
-2019-07-25 15:50:02,730 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.net.URL -> org.hibernate.type.UrlType@31fdfb56
-2019-07-25 15:50:02,731 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Duration -> org.hibernate.type.DurationType@48a36f63
-2019-07-25 15:50:02,731 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@48a36f63
-2019-07-25 15:50:02,732 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Instant -> org.hibernate.type.InstantType@1773b5d3
-2019-07-25 15:50:02,732 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1773b5d3
-2019-07-25 15:50:02,733 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@5eb65de1
-2019-07-25 15:50:02,734 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@5eb65de1
-2019-07-25 15:50:02,735 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@c0c241a
-2019-07-25 15:50:02,735 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@c0c241a
-2019-07-25 15:50:02,736 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7d9112e
-2019-07-25 15:50:02,736 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7d9112e
-2019-07-25 15:50:02,737 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@74f4f1e4
-2019-07-25 15:50:02,737 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@74f4f1e4
-2019-07-25 15:50:02,738 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4ecba3cf
-2019-07-25 15:50:02,739 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4ecba3cf
-2019-07-25 15:50:02,740 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@275eb6b1
-2019-07-25 15:50:02,741 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@275eb6b1
-2019-07-25 15:50:02,742 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration date -> org.hibernate.type.DateType@7fa4f912
-2019-07-25 15:50:02,742 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Date -> org.hibernate.type.DateType@7fa4f912
-2019-07-25 15:50:02,743 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration time -> org.hibernate.type.TimeType@127b0e54
-2019-07-25 15:50:02,743 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@127b0e54
-2019-07-25 15:50:02,745 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timestamp -> org.hibernate.type.TimestampType@7a27ee84
-2019-07-25 15:50:02,745 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@7a27ee84
-2019-07-25 15:50:02,745 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@7a27ee84
-2019-07-25 15:50:02,746 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@228eb1f2
-2019-07-25 15:50:02,747 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar -> org.hibernate.type.CalendarType@223eccd3
-2019-07-25 15:50:02,747 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@223eccd3
-2019-07-25 15:50:02,748 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@223eccd3
-2019-07-25 15:50:02,749 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3c1b13be
-2019-07-25 15:50:02,749 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration locale -> org.hibernate.type.LocaleType@623352c2
-2019-07-25 15:50:02,750 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@623352c2
-2019-07-25 15:50:02,751 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration currency -> org.hibernate.type.CurrencyType@7882ff64
-2019-07-25 15:50:02,751 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@7882ff64
-2019-07-25 15:50:02,752 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5981facb
-2019-07-25 15:50:02,752 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5981facb
-2019-07-25 15:50:02,753 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration class -> org.hibernate.type.ClassType@656ce08c
-2019-07-25 15:50:02,753 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@656ce08c
-2019-07-25 15:50:02,754 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@5893d471
-2019-07-25 15:50:02,754 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@5893d471
-2019-07-25 15:50:02,754 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@7dccfa35
-2019-07-25 15:50:02,756 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration binary -> org.hibernate.type.BinaryType@709061f8
-2019-07-25 15:50:02,756 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte[] -> org.hibernate.type.BinaryType@709061f8
-2019-07-25 15:50:02,756 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [B -> org.hibernate.type.BinaryType@709061f8
-2019-07-25 15:50:02,757 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3373b804
-2019-07-25 15:50:02,757 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3373b804
-2019-07-25 15:50:02,757 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3373b804
-2019-07-25 15:50:02,758 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration row_version -> org.hibernate.type.RowVersionType@2d892b65
-2019-07-25 15:50:02,759 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration image -> org.hibernate.type.ImageType@5bd16e29
-2019-07-25 15:50:02,760 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration characters -> org.hibernate.type.CharArrayType@445777e
-2019-07-25 15:50:02,760 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char[] -> org.hibernate.type.CharArrayType@445777e
-2019-07-25 15:50:02,760 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [C -> org.hibernate.type.CharArrayType@445777e
-2019-07-25 15:50:02,761 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@f8ab11c
-2019-07-25 15:50:02,761 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@f8ab11c
-2019-07-25 15:50:02,762 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@f8ab11c
-2019-07-25 15:50:02,762 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration text -> org.hibernate.type.TextType@7b9d3188
-2019-07-25 15:50:02,763 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ntext -> org.hibernate.type.NTextType@ac7f62f
-2019-07-25 15:50:02,765 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration blob -> org.hibernate.type.BlobType@67d1c128
-2019-07-25 15:50:02,765 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@67d1c128
-2019-07-25 15:50:02,765 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@21f8387d
-2019-07-25 15:50:02,767 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration clob -> org.hibernate.type.ClobType@7bd93806
-2019-07-25 15:50:02,767 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7bd93806
-2019-07-25 15:50:02,768 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nclob -> org.hibernate.type.NClobType@367d8fd0
-2019-07-25 15:50:02,768 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@367d8fd0
-2019-07-25 15:50:02,769 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3fcce453
-2019-07-25 15:50:02,769 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4f7bc3d7
-2019-07-25 15:50:02,770 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration serializable -> org.hibernate.type.SerializableType@452b94d5
-2019-07-25 15:50:02,773 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration object -> org.hibernate.type.ObjectType@7a681189
-2019-07-25 15:50:02,773 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7a681189
-2019-07-25 15:50:02,774 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@aa5c0f1
-2019-07-25 15:50:02,775 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5c002931
-2019-07-25 15:50:02,775 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@36bf76f2
-2019-07-25 15:50:02,776 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@5d765980
-2019-07-25 15:50:02,776 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@79f0a897
-2019-07-25 15:50:02,776 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@24e45f39
-2019-07-25 15:50:02,777 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@69a1a5b1
-2019-07-25 15:50:02,777 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6745b5c
-2019-07-25 15:50:02,831 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
-2019-07-25 15:50:02,874 DEBUG o.h.t.s.TypeConfiguration [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2c9404ab] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@2c5f11cf]
-2019-07-25 15:50:03,149 DEBUG o.h.t.s.TypeConfiguration [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2c9404ab] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@63d265a]
-2019-07-25 15:50:03,590 TRACE o.h.t.s.TypeConfiguration [restartedMain] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@63d265a] for TypeConfiguration
-2019-07-25 15:50:03,591 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
-2019-07-25 15:50:03,649 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
-2019-07-25 15:50:04,058 INFO o.h.h.i.QueryTranslatorFactoryInitiator [restartedMain] HHH000397: Using ASTQueryTranslatorFactory
-2019-07-25 15:50:04,505 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2019-07-25 15:50:04,865 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-25 15:50:05,174 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b2eab83, org.springframework.security.web.context.SecurityContextPersistenceFilter@2b4c209c, org.springframework.security.web.header.HeaderWriterFilter@5694fcbc, org.springframework.security.web.authentication.logout.LogoutFilter@6e1addfe, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b97f462, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@246258ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ef159b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4815940c, org.springframework.security.web.session.SessionManagementFilter@4524a45d, org.springframework.security.web.access.ExceptionTranslationFilter@44ee53e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2980fbc1]
-2019-07-25 15:50:05,265 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
-2019-07-25 15:50:05,279 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Found {0} custom documentation plugin(s)
-2019-07-25 15:50:05,288 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
-2019-07-25 15:50:05,292 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
-2019-07-25 15:50:05,294 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addDishForm belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
-2019-07-25 15:50:05,295 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
-2019-07-25 15:50:05,296 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: deleteFromDish belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
-2019-07-25 15:50:05,296 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
-2019-07-25 15:50:05,296 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: showDishList belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
-2019-07-25 15:50:05,297 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
-2019-07-25 15:50:05,297 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: list belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
-2019-07-25 15:50:05,298 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
-2019-07-25 15:50:05,298 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: saveForm belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
-2019-07-25 15:50:05,298 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
-2019-07-25 15:50:05,299 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addToOrder belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,299 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
-2019-07-25 15:50:05,299 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addToOrderFriend belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,300 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
-2019-07-25 15:50:05,300 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: deleteOrderPosition belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,301 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
-2019-07-25 15:50:05,301 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addFormFriends belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,301 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
-2019-07-25 15:50:05,301 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addForm belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,302 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
-2019-07-25 15:50:05,302 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: readyOrder belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
-2019-07-25 15:50:05,303 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
-2019-07-25 15:50:05,303 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: showForm belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=pl.gregsApp.controllers.UserController}]] 
-2019-07-25 15:50:05,303 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
-2019-07-25 15:50:05,304 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: saveForm belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=pl.gregsApp.controllers.UserController}]] 
-2019-07-25 15:50:05,307 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/user-controller Description: user-controller Position: 0
-2019-07-25 15:50:05,308 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/order-controller Description: order-controller Position: 0
-2019-07-25 15:50:05,309 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/dish-controller Description: dish-controller Position: 0
-2019-07-25 15:50:05,325 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,325 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,331 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,331 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,337 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/addForm.pl.gregsApp.controllers.DishController.addDishForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,337 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/addForm.pl.gregsApp.controllers.DishController.addDishForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,354 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
-2019-07-25 15:50:05,357 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
-2019-07-25 15:50:05,364 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,364 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,364 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,364 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,365 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/delete/{id}.pl.gregsApp.controllers.DishController.deleteFromDish.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,365 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/delete/{id}.pl.gregsApp.controllers.DishController.deleteFromDish.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,368 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
-2019-07-25 15:50:05,369 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
-2019-07-25 15:50:05,371 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,371 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,371 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,372 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,372 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/list.pl.gregsApp.controllers.DishController.list.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,373 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/list.pl.gregsApp.controllers.DishController.list.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,375 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
-2019-07-25 15:50:05,376 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
-2019-07-25 15:50:05,378 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,378 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,378 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,379 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,379 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/saveForm.pl.gregsApp.controllers.DishController.saveForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,379 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/saveForm.pl.gregsApp.controllers.DishController.saveForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,392 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
-2019-07-25 15:50:05,393 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
-2019-07-25 15:50:05,395 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,395 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,395 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,395 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,396 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/dishList.pl.gregsApp.controllers.DishController.showDishList.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,396 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/dishList.pl.gregsApp.controllers.DishController.showDishList.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,397 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
-2019-07-25 15:50:05,399 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
-2019-07-25 15:50:05,412 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,412 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,412 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,413 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,413 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/form.pl.gregsApp.controllers.OrderController.addForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,413 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/form.pl.gregsApp.controllers.OrderController.addForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,414 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
-2019-07-25 15:50:05,415 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
-2019-07-25 15:50:05,417 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,417 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,417 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,417 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,418 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/formFriends.pl.gregsApp.controllers.OrderController.addFormFriends.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,418 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/formFriends.pl.gregsApp.controllers.OrderController.addFormFriends.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,419 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
-2019-07-25 15:50:05,420 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
-2019-07-25 15:50:05,422 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,423 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,424 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,424 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,424 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/add/{id}.pl.gregsApp.controllers.OrderController.addToOrder.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,424 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/add/{id}.pl.gregsApp.controllers.OrderController.addToOrder.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,426 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
-2019-07-25 15:50:05,427 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
-2019-07-25 15:50:05,428 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,428 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,429 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,429 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,429 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/addFriend/{id}.pl.gregsApp.controllers.OrderController.addToOrderFriend.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,429 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/addFriend/{id}.pl.gregsApp.controllers.OrderController.addToOrderFriend.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,431 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
-2019-07-25 15:50:05,432 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
-2019-07-25 15:50:05,433 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,434 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,434 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,434 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,435 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/delete/{id}.pl.gregsApp.controllers.OrderController.deleteOrderPosition.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,435 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/delete/{id}.pl.gregsApp.controllers.OrderController.deleteOrderPosition.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,436 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
-2019-07-25 15:50:05,438 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
-2019-07-25 15:50:05,440 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,440 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,441 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,441 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,441 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/orderReady.pl.gregsApp.controllers.OrderController.readyOrder.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,442 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/orderReady.pl.gregsApp.controllers.OrderController.readyOrder.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,443 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
-2019-07-25 15:50:05,444 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
-2019-07-25 15:50:05,447 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,447 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,448 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,448 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,448 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/user/saveInDataBase.pl.gregsApp.controllers.UserController.saveForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,448 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/user/saveInDataBase.pl.gregsApp.controllers.UserController.saveForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,452 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
-2019-07-25 15:50:05,453 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
-2019-07-25 15:50:05,454 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: saveFormUsingPOST_1
-2019-07-25 15:50:05,455 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,455 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
-2019-07-25 15:50:05,456 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
-2019-07-25 15:50:05,456 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
-2019-07-25 15:50:05,456 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/user/addForm.pl.gregsApp.controllers.UserController.showForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,456 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/user/addForm.pl.gregsApp.controllers.UserController.showForm.DefaultGenericTypeNamingStrategy
-2019-07-25 15:50:05,458 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
-2019-07-25 15:50:05,458 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
-2019-07-25 15:50:05,470 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
-2019-07-25 15:50:05,497 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
-2019-07-25 15:50:05,501 INFO o.s.b.StartupInfoLogger [restartedMain] Started Application in 6.478 seconds (JVM running for 7.635)
-2019-07-25 15:50:10,808 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-25 15:50:10,810 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
-2019-07-25 15:50:10,838 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 28 ms
-2019-07-25 15:50:10,970 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select category0_.id as id1_1_, category0_.name as name2_1_, category0_.type as type3_1_ from categories category0_
-2019-07-25 15:50:10,986 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [1]
-2019-07-25 15:50:10,991 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_] : [VARCHAR]) - [Burger]
-2019-07-25 15:50:10,991 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_] : [VARCHAR]) - [FastFood]
-2019-07-25 15:50:10,992 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [2]
-2019-07-25 15:50:10,992 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_] : [VARCHAR]) - [Vege]
-2019-07-25 15:50:10,993 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_] : [VARCHAR]) - [VegeFood]
-2019-07-25 15:50:10,993 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [3]
-2019-07-25 15:50:10,993 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_] : [VARCHAR]) - [Domowe]
-2019-07-25 15:50:10,993 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_] : [VARCHAR]) - [Domowe]
-2019-07-25 15:50:11,009 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select dish0_.id as id1_2_, dish0_.calories as calories2_2_, dish0_.category_id as category6_2_, dish0_.description as descript3_2_, dish0_.name_of_dish as name_of_4_2_, dish0_.order_id as order_id7_2_, dish0_.price as price5_2_ from dishes dish0_
-2019-07-25 15:50:11,011 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [6]
-2019-07-25 15:50:11,012 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [12.11]
-2019-07-25 15:50:11,012 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,012 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Świeżo mielony imbir w połączeniu z curry daje ogień]
-2019-07-25 15:50:11,012 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Curry z kurczakiem]
-2019-07-25 15:50:11,013 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,013 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [123.11]
-2019-07-25 15:50:11,013 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [7]
-2019-07-25 15:50:11,014 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [123.0]
-2019-07-25 15:50:11,014 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,015 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Domowa kakaowa granola z ]
-2019-07-25 15:50:11,015 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Kakaowa granola z żurawiną]
-2019-07-25 15:50:11,015 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,015 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [123.0]
-2019-07-25 15:50:11,016 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [8]
-2019-07-25 15:50:11,016 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [123.0]
-2019-07-25 15:50:11,017 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,017 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Przepyszne gofryyy!]
-2019-07-25 15:50:11,017 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Gofry kakaowe]
-2019-07-25 15:50:11,017 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,018 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [321.11]
-2019-07-25 15:50:11,018 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [9]
-2019-07-25 15:50:11,019 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [1000.12]
-2019-07-25 15:50:11,019 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,019 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Dużo by mówić]
-2019-07-25 15:50:11,019 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Miodoowo-musztardowe udka z kurczaka z curry i ketchupem]
-2019-07-25 15:50:11,019 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,020 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [99.99]
-2019-07-25 15:50:11,020 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [10]
-2019-07-25 15:50:11,020 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [900.0]
-2019-07-25 15:50:11,020 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,021 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [da sie! tak!]
-2019-07-25 15:50:11,021 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Letni sernik bez pieczenia]
-2019-07-25 15:50:11,021 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [29.99]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [12]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [10.0]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Dobre kanapeczki]
-2019-07-25 15:50:11,022 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Kalmary z Gdańska]
-2019-07-25 15:50:11,023 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
-2019-07-25 15:50:11,023 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [12.01]
+2019-07-27 22:56:40,625 INFO o.h.Version [restartedMain] HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-27 22:56:40,627 INFO o.h.c.Environment [restartedMain] HHH000206: hibernate.properties not found
+2019-07-27 22:56:40,737 INFO o.h.a.c.r.j.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-27 22:56:40,756 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@3acb222d
+2019-07-27 22:56:40,756 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration boolean -> org.hibernate.type.BooleanType@3acb222d
+2019-07-27 22:56:40,757 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3acb222d
+2019-07-27 22:56:40,758 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@5ead4c29
+2019-07-27 22:56:40,758 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration true_false -> org.hibernate.type.TrueFalseType@1dd53147
+2019-07-27 22:56:40,759 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration yes_no -> org.hibernate.type.YesNoType@28a826f4
+2019-07-27 22:56:40,760 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@29482f34
+2019-07-27 22:56:40,760 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte -> org.hibernate.type.ByteType@29482f34
+2019-07-27 22:56:40,761 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@29482f34
+2019-07-27 22:56:40,762 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration character -> org.hibernate.type.CharacterType@24327cfb
+2019-07-27 22:56:40,762 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char -> org.hibernate.type.CharacterType@24327cfb
+2019-07-27 22:56:40,763 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@24327cfb
+2019-07-27 22:56:40,764 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@4018319a
+2019-07-27 22:56:40,764 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration short -> org.hibernate.type.ShortType@4018319a
+2019-07-27 22:56:40,764 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4018319a
+2019-07-27 22:56:40,765 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration integer -> org.hibernate.type.IntegerType@25e29cc
+2019-07-27 22:56:40,765 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration int -> org.hibernate.type.IntegerType@25e29cc
+2019-07-27 22:56:40,766 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@25e29cc
+2019-07-27 22:56:40,767 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@15726292
+2019-07-27 22:56:40,767 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration long -> org.hibernate.type.LongType@15726292
+2019-07-27 22:56:40,767 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Long -> org.hibernate.type.LongType@15726292
+2019-07-27 22:56:40,768 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@52c27a84
+2019-07-27 22:56:40,768 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration float -> org.hibernate.type.FloatType@52c27a84
+2019-07-27 22:56:40,769 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Float -> org.hibernate.type.FloatType@52c27a84
+2019-07-27 22:56:40,770 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@6ee0b2a3
+2019-07-27 22:56:40,770 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration double -> org.hibernate.type.DoubleType@6ee0b2a3
+2019-07-27 22:56:40,770 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@6ee0b2a3
+2019-07-27 22:56:40,771 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@22bf346d
+2019-07-27 22:56:40,771 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@22bf346d
+2019-07-27 22:56:40,772 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration big_integer -> org.hibernate.type.BigIntegerType@19e4c7e7
+2019-07-27 22:56:40,772 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@19e4c7e7
+2019-07-27 22:56:40,773 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration string -> org.hibernate.type.StringType@48797f7d
+2019-07-27 22:56:40,773 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.String -> org.hibernate.type.StringType@48797f7d
+2019-07-27 22:56:40,774 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nstring -> org.hibernate.type.StringNVarcharType@3cfe9246
+2019-07-27 22:56:40,775 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@17565a62
+2019-07-27 22:56:40,775 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration url -> org.hibernate.type.UrlType@13aa28b5
+2019-07-27 22:56:40,776 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.net.URL -> org.hibernate.type.UrlType@13aa28b5
+2019-07-27 22:56:40,776 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Duration -> org.hibernate.type.DurationType@6d85956
+2019-07-27 22:56:40,777 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6d85956
+2019-07-27 22:56:40,778 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Instant -> org.hibernate.type.InstantType@825b8cf
+2019-07-27 22:56:40,778 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.Instant -> org.hibernate.type.InstantType@825b8cf
+2019-07-27 22:56:40,780 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@43d85d6c
+2019-07-27 22:56:40,780 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@43d85d6c
+2019-07-27 22:56:40,782 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalDate -> org.hibernate.type.LocalDateType@e0e2a99
+2019-07-27 22:56:40,782 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@e0e2a99
+2019-07-27 22:56:40,784 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@56eddbb9
+2019-07-27 22:56:40,784 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@56eddbb9
+2019-07-27 22:56:40,786 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@381041e3
+2019-07-27 22:56:40,786 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@381041e3
+2019-07-27 22:56:40,787 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@b95b721
+2019-07-27 22:56:40,787 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@b95b721
+2019-07-27 22:56:40,789 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b52d28
+2019-07-27 22:56:40,790 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b52d28
+2019-07-27 22:56:40,792 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration date -> org.hibernate.type.DateType@7a499086
+2019-07-27 22:56:40,792 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Date -> org.hibernate.type.DateType@7a499086
+2019-07-27 22:56:40,793 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration time -> org.hibernate.type.TimeType@1870d81
+2019-07-27 22:56:40,793 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1870d81
+2019-07-27 22:56:40,795 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timestamp -> org.hibernate.type.TimestampType@38e73028
+2019-07-27 22:56:40,795 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@38e73028
+2019-07-27 22:56:40,795 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Date -> org.hibernate.type.TimestampType@38e73028
+2019-07-27 22:56:40,796 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@16ae3944
+2019-07-27 22:56:40,797 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar -> org.hibernate.type.CalendarType@403f4d91
+2019-07-27 22:56:40,798 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@403f4d91
+2019-07-27 22:56:40,798 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@403f4d91
+2019-07-27 22:56:40,799 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@5ce59e9d
+2019-07-27 22:56:40,800 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration locale -> org.hibernate.type.LocaleType@487a8781
+2019-07-27 22:56:40,800 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@487a8781
+2019-07-27 22:56:40,801 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration currency -> org.hibernate.type.CurrencyType@54881d61
+2019-07-27 22:56:40,801 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@54881d61
+2019-07-27 22:56:40,802 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration timezone -> org.hibernate.type.TimeZoneType@5185dd4
+2019-07-27 22:56:40,802 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5185dd4
+2019-07-27 22:56:40,803 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration class -> org.hibernate.type.ClassType@1ef78b3f
+2019-07-27 22:56:40,803 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1ef78b3f
+2019-07-27 22:56:40,804 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@6935ca04
+2019-07-27 22:56:40,804 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@6935ca04
+2019-07-27 22:56:40,805 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6fd18e3e
+2019-07-27 22:56:40,806 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration binary -> org.hibernate.type.BinaryType@643f19cf
+2019-07-27 22:56:40,806 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration byte[] -> org.hibernate.type.BinaryType@643f19cf
+2019-07-27 22:56:40,807 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [B -> org.hibernate.type.BinaryType@643f19cf
+2019-07-27 22:56:40,807 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2cf488be
+2019-07-27 22:56:40,808 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2cf488be
+2019-07-27 22:56:40,808 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2cf488be
+2019-07-27 22:56:40,809 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration row_version -> org.hibernate.type.RowVersionType@11d491f1
+2019-07-27 22:56:40,809 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration image -> org.hibernate.type.ImageType@6eb20c05
+2019-07-27 22:56:40,810 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration characters -> org.hibernate.type.CharArrayType@75067d3b
+2019-07-27 22:56:40,810 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration char[] -> org.hibernate.type.CharArrayType@75067d3b
+2019-07-27 22:56:40,811 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [C -> org.hibernate.type.CharArrayType@75067d3b
+2019-07-27 22:56:40,812 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4132a4ab
+2019-07-27 22:56:40,812 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4132a4ab
+2019-07-27 22:56:40,812 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4132a4ab
+2019-07-27 22:56:40,813 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration text -> org.hibernate.type.TextType@73f70286
+2019-07-27 22:56:40,814 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration ntext -> org.hibernate.type.NTextType@1d8608d8
+2019-07-27 22:56:40,815 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration blob -> org.hibernate.type.BlobType@5e624ec5
+2019-07-27 22:56:40,816 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5e624ec5
+2019-07-27 22:56:40,816 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@356b2d2c
+2019-07-27 22:56:40,818 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration clob -> org.hibernate.type.ClobType@210299b6
+2019-07-27 22:56:40,818 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@210299b6
+2019-07-27 22:56:40,819 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration nclob -> org.hibernate.type.NClobType@535ffc53
+2019-07-27 22:56:40,819 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@535ffc53
+2019-07-27 22:56:40,820 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4c48adaa
+2019-07-27 22:56:40,820 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@35e774cb
+2019-07-27 22:56:40,822 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration serializable -> org.hibernate.type.SerializableType@20b61247
+2019-07-27 22:56:40,824 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration object -> org.hibernate.type.ObjectType@4560c13b
+2019-07-27 22:56:40,825 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4560c13b
+2019-07-27 22:56:40,826 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@33c8bbe0
+2019-07-27 22:56:40,827 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@24a815e
+2019-07-27 22:56:40,827 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@34943dcd
+2019-07-27 22:56:40,828 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@523e42a4
+2019-07-27 22:56:40,828 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@24dfe4b8
+2019-07-27 22:56:40,828 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@72c9c10c
+2019-07-27 22:56:40,829 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@67a6f0cd
+2019-07-27 22:56:40,829 DEBUG o.h.t.BasicTypeRegistry [restartedMain] Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@472da5ff
+2019-07-27 22:56:40,887 INFO o.h.d.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL57InnoDBDialect
+2019-07-27 22:56:40,939 DEBUG o.h.t.s.TypeConfiguration [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@19fb524d] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@4a99d3a9]
+2019-07-27 22:56:41,238 DEBUG o.h.t.s.TypeConfiguration [restartedMain] Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@19fb524d] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@38cccd72]
+2019-07-27 22:56:41,661 TRACE o.h.t.s.TypeConfiguration [restartedMain] Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@38cccd72] for TypeConfiguration
+2019-07-27 22:56:41,663 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-27 22:56:41,718 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-07-27 22:56:42,129 INFO o.h.h.i.QueryTranslatorFactoryInitiator [restartedMain] HHH000397: Using ASTQueryTranslatorFactory
+2019-07-27 22:56:42,581 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-27 22:56:42,926 INFO o.s.s.c.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-27 22:56:43,224 INFO o.s.s.w.DefaultSecurityFilterChain [restartedMain] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@664a2131, org.springframework.security.web.context.SecurityContextPersistenceFilter@38d06180, org.springframework.security.web.header.HeaderWriterFilter@3cdc6ed0, org.springframework.security.web.authentication.logout.LogoutFilter@23187ac2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@d7e95fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33b4180e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c6d61d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@fb983f4, org.springframework.security.web.session.SessionManagementFilter@44d3d9f8, org.springframework.security.web.access.ExceptionTranslationFilter@388cdb06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6249e500]
+2019-07-27 22:56:43,349 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2019-07-27 22:56:43,369 INFO s.d.s.w.p.DocumentationPluginsBootstrapper [restartedMain] Found {0} custom documentation plugin(s)
+2019-07-27 22:56:43,381 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2019-07-27 22:56:43,386 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
+2019-07-27 22:56:43,388 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addDishForm belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
+2019-07-27 22:56:43,390 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
+2019-07-27 22:56:43,390 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: deleteFromDish belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
+2019-07-27 22:56:43,391 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
+2019-07-27 22:56:43,391 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: showDishList belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
+2019-07-27 22:56:43,391 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
+2019-07-27 22:56:43,391 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: list belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
+2019-07-27 22:56:43,392 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
+2019-07-27 22:56:43,392 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: saveForm belongs to groups: [[ResourceGroup{groupName='dish-controller', position=0, controller=pl.gregsApp.controllers.DishController}]] 
+2019-07-27 22:56:43,393 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
+2019-07-27 22:56:43,393 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addToOrder belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,393 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
+2019-07-27 22:56:43,393 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addToOrderFriend belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,394 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
+2019-07-27 22:56:43,394 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: deleteOrderPosition belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,395 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
+2019-07-27 22:56:43,395 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addFormFriends belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,395 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
+2019-07-27 22:56:43,395 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: addForm belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,396 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
+2019-07-27 22:56:43,396 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: readyOrder belongs to groups: [[ResourceGroup{groupName='order-controller', position=0, controller=pl.gregsApp.controllers.OrderController}]] 
+2019-07-27 22:56:43,397 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
+2019-07-27 22:56:43,397 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: showForm belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=pl.gregsApp.controllers.UserController}]] 
+2019-07-27 22:56:43,397 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
+2019-07-27 22:56:43,397 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Request mapping: saveForm belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=pl.gregsApp.controllers.UserController}]] 
+2019-07-27 22:56:43,401 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/order-controller Description: order-controller Position: 0
+2019-07-27 22:56:43,402 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/dish-controller Description: dish-controller Position: 0
+2019-07-27 22:56:43,403 INFO s.d.s.w.s.ApiListingReferenceScanner [restartedMain] Created resource listing Path: /Server API/user-controller Description: user-controller Position: 0
+2019-07-27 22:56:43,421 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,421 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,429 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,429 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,437 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/addForm.pl.gregsApp.controllers.DishController.addDishForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,437 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/addForm.pl.gregsApp.controllers.DishController.addDishForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,456 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
+2019-07-27 22:56:43,460 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addDishForm was dish-controller
+2019-07-27 22:56:43,468 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,469 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,469 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,470 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,470 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/delete/{id}.pl.gregsApp.controllers.DishController.deleteFromDish.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,470 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/delete/{id}.pl.gregsApp.controllers.DishController.deleteFromDish.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,474 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
+2019-07-27 22:56:43,475 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteFromDish was dish-controller
+2019-07-27 22:56:43,477 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,477 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,478 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,478 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,479 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/list.pl.gregsApp.controllers.DishController.list.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,479 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/list.pl.gregsApp.controllers.DishController.list.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,482 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
+2019-07-27 22:56:43,484 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method list was dish-controller
+2019-07-27 22:56:43,486 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,486 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,486 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,486 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,487 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/saveForm.pl.gregsApp.controllers.DishController.saveForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,487 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/saveForm.pl.gregsApp.controllers.DishController.saveForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,501 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
+2019-07-27 22:56:43,502 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was dish-controller
+2019-07-27 22:56:43,504 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,504 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,504 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,504 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,505 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/dish/dishList.pl.gregsApp.controllers.DishController.showDishList.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,505 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/dish/dishList.pl.gregsApp.controllers.DishController.showDishList.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,507 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
+2019-07-27 22:56:43,509 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showDishList was dish-controller
+2019-07-27 22:56:43,524 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,524 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,525 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,525 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,525 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/form.pl.gregsApp.controllers.OrderController.addForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,526 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/form.pl.gregsApp.controllers.OrderController.addForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,527 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
+2019-07-27 22:56:43,529 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addForm was order-controller
+2019-07-27 22:56:43,531 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,531 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,532 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,532 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,532 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/formFriends.pl.gregsApp.controllers.OrderController.addFormFriends.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,533 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/formFriends.pl.gregsApp.controllers.OrderController.addFormFriends.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,534 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
+2019-07-27 22:56:43,535 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addFormFriends was order-controller
+2019-07-27 22:56:43,536 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,537 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,537 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,538 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,538 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/add/{id}.pl.gregsApp.controllers.OrderController.addToOrder.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,538 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/add/{id}.pl.gregsApp.controllers.OrderController.addToOrder.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,540 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
+2019-07-27 22:56:43,541 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrder was order-controller
+2019-07-27 22:56:43,543 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,544 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,544 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,544 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,545 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/addFriend/{id}.pl.gregsApp.controllers.OrderController.addToOrderFriend.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,545 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/addFriend/{id}.pl.gregsApp.controllers.OrderController.addToOrderFriend.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,547 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
+2019-07-27 22:56:43,548 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method addToOrderFriend was order-controller
+2019-07-27 22:56:43,550 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,551 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,551 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,552 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,552 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/delete/{id}.pl.gregsApp.controllers.OrderController.deleteOrderPosition.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,552 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/delete/{id}.pl.gregsApp.controllers.OrderController.deleteOrderPosition.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,553 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
+2019-07-27 22:56:43,554 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method deleteOrderPosition was order-controller
+2019-07-27 22:56:43,556 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,557 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,557 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,557 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,557 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/order/orderReady.pl.gregsApp.controllers.OrderController.readyOrder.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,558 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/order/orderReady.pl.gregsApp.controllers.OrderController.readyOrder.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,559 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
+2019-07-27 22:56:43,560 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method readyOrder was order-controller
+2019-07-27 22:56:43,563 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,564 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,564 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,564 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,564 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/user/saveInDataBase.pl.gregsApp.controllers.UserController.saveForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,565 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/user/saveInDataBase.pl.gregsApp.controllers.UserController.saveForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,568 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
+2019-07-27 22:56:43,570 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method saveForm was user-controller
+2019-07-27 22:56:43,570 INFO s.d.s.w.r.o.CachingOperationNameGenerator [restartedMain] Generating unique operation named: saveFormUsingPOST_1
+2019-07-27 22:56:43,571 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,572 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache models with key java.lang.String(true)
+2019-07-27 22:56:43,572 INFO s.d.s.ModelContextKeyGenerator [restartedMain] Cache Key Generated: java.lang.String(true)
+2019-07-27 22:56:43,572 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+2019-07-27 22:56:43,573 INFO s.d.s.w.OperationsKeyGenerator [restartedMain] Cache key generated: /api/user/addForm.pl.gregsApp.controllers.UserController.showForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,573 INFO s.d.s.w.c.CachingAspect [restartedMain] Caching aspect applied for cache operations with key /api/user/addForm.pl.gregsApp.controllers.UserController.showForm.DefaultGenericTypeNamingStrategy
+2019-07-27 22:56:43,574 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
+2019-07-27 22:56:43,575 INFO s.d.s.w.ClassOrApiAnnotationResourceGrouping$1 [restartedMain] Group for method showForm was user-controller
+2019-07-27 22:56:43,587 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2019-07-27 22:56:43,612 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2019-07-27 22:56:43,616 INFO o.s.b.StartupInfoLogger [restartedMain] Started Application in 7.233 seconds (JVM running for 8.398)
+2019-07-27 22:56:47,145 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-27 22:56:47,146 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-07-27 22:56:47,160 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 14 ms
+2019-07-27 22:56:47,233 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select dish0_.id as id1_2_, dish0_.calories as calories2_2_, dish0_.category_id as category6_2_, dish0_.description as descript3_2_, dish0_.name_of_dish as name_of_4_2_, dish0_.order_id as order_id7_2_, dish0_.price as price5_2_ from dishes dish0_
+2019-07-27 22:56:47,250 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [6]
+2019-07-27 22:56:47,257 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [12.11]
+2019-07-27 22:56:47,257 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,257 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Świeżo mielony imbir w połączeniu z curry daje ogień]
+2019-07-27 22:56:47,258 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Curry z kurczakiem]
+2019-07-27 22:56:47,258 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,258 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [123.11]
+2019-07-27 22:56:47,259 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [7]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [123.0]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Domowa kakaowa granola z ]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Kakaowa granola z żurawiną]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,260 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [123.0]
+2019-07-27 22:56:47,261 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [8]
+2019-07-27 22:56:47,261 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [123.0]
+2019-07-27 22:56:47,261 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,261 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Przepyszne gofryyy!]
+2019-07-27 22:56:47,261 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Gofry kakaowe]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [321.11]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [9]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [1000.12]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,262 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Dużo by mówić]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Miodoowo-musztardowe udka z kurczaka z curry i ketchupem]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [99.99]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [10]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [900.0]
+2019-07-27 22:56:47,263 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [da sie! tak!]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Letni sernik bez pieczenia]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [29.99]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [12]
+2019-07-27 22:56:47,264 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([calories2_2_] : [DOUBLE]) - [10.0]
+2019-07-27 22:56:47,265 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([category6_2_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,265 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([descript3_2_] : [VARCHAR]) - [Dobre kanapeczki]
+2019-07-27 22:56:47,265 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name_of_4_2_] : [VARCHAR]) - [Kalmary z Gdańska]
+2019-07-27 22:56:47,265 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([order_id7_2_] : [BIGINT]) - [null]
+2019-07-27 22:56:47,265 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([price5_2_] : [DOUBLE]) - [12.01]
+2019-07-27 22:56:47,268 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select category0_.id as id1_1_0_, category0_.name as name2_1_0_, category0_.type as type3_1_0_ from categories category0_ where category0_.id=?
+2019-07-27 22:56:47,270 TRACE o.h.t.d.s.BasicBinder [http-nio-8080-exec-1] binding parameter [1] as [BIGINT] - [1]
+2019-07-27 22:56:47,274 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_0_] : [VARCHAR]) - [Burger]
+2019-07-27 22:56:47,275 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_0_] : [VARCHAR]) - [FastFood]
+2019-07-27 22:56:47,478 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select category0_.id as id1_1_, category0_.name as name2_1_, category0_.type as type3_1_ from categories category0_
+2019-07-27 22:56:47,479 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [1]
+2019-07-27 22:56:47,480 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [2]
+2019-07-27 22:56:47,480 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_] : [VARCHAR]) - [Vege]
+2019-07-27 22:56:47,480 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_] : [VARCHAR]) - [VegeFood]
+2019-07-27 22:56:47,480 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_1_] : [BIGINT]) - [3]
+2019-07-27 22:56:47,480 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([name2_1_] : [VARCHAR]) - [Domowe]
+2019-07-27 22:56:47,481 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([type3_1_] : [VARCHAR]) - [Domowe]
+2019-07-27 22:56:47,486 DEBUG o.h.e.j.s.SqlStatementLogger [http-nio-8080-exec-1] select dish0_.id as id1_2_, dish0_.calories as calories2_2_, dish0_.category_id as category6_2_, dish0_.description as descript3_2_, dish0_.name_of_dish as name_of_4_2_, dish0_.order_id as order_id7_2_, dish0_.price as price5_2_ from dishes dish0_
+2019-07-27 22:56:47,487 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [6]
+2019-07-27 22:56:47,488 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [7]
+2019-07-27 22:56:47,488 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [8]
+2019-07-27 22:56:47,489 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [9]
+2019-07-27 22:56:47,490 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [10]
+2019-07-27 22:56:47,490 TRACE o.h.t.d.s.BasicExtractor [http-nio-8080-exec-1] extracted value ([id1_2_] : [BIGINT]) - [12]
+2019-07-27 22:57:29,632 INFO o.s.s.c.ExecutorConfigurationSupport [Thread-8] Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-27 22:57:29,641 INFO o.s.o.j.AbstractEntityManagerFactoryBean [Thread-8] Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-27 22:57:29,642 TRACE o.h.t.s.TypeConfiguration [Thread-8] Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@38cccd72] for TypeConfiguration
+2019-07-27 22:57:29,643 DEBUG o.h.t.s.TypeConfiguration$Scope [Thread-8] Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@4c36696d] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@38cccd72]
+2019-07-27 22:57:29,652 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-1 - Shutdown initiated...
+2019-07-27 22:57:29,668 INFO c.z.h.HikariDataSource [Thread-8] HikariPool-1 - Shutdown completed.
