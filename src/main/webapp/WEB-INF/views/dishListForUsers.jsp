@@ -46,10 +46,9 @@
             <ul class="nav navbar-nav">
                 <li class="nav-item"><a href="/api/dish/dishList" class="nav-link">Meals list</a></li>
                 <li class="nav-item"><a href="/api/user/addForm" class="nav-link">Create account</a></li>
-                <form:form method="get" modelAttribute="makePdf">
-                <li class="nav-item"><button class="btn" type="submit"></button></li>
-                </form:form>
-                <%--                <sec:authorize access=""--%>
+                <li class="nav-item" ><a href="/api/dish/dishList/pdf" class="nav-link">Download PDF</a></li>
+
+                    <%--                <sec:authorize access=""--%>
                 <%--                <li class="nav-item"><a href="#" class="nav-link">Link</a></li>--%>
                 <%--                <li class="nav-item"><a href="#" class="nav-link">Service</a></li>--%>
                 <%--                <li class="nav-item"><a href="#" class="nav-link">More</a></li>--%>
@@ -99,7 +98,6 @@
                         <tbody>
                         <c:forEach items="${dishes}" var="dish">
                         <tr class="row100 body">
-
 <%--                            <td>${dish.id}</td>--%>
                             <td class="cell100 column1">${dish.nameOfDish}</td>
                             <td class="cell100 column2">${dish.description}</td>

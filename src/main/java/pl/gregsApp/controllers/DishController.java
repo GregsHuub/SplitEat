@@ -1,7 +1,8 @@
 package pl.gregsApp.controllers;
 
-import com.fasterxml.jackson.databind.util.JSONPObject;
 import com.itextpdf.text.DocumentException;
+import org.apache.commons.io.FileUtils;
+import org.apache.jasper.tagplugins.jstl.core.Url;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -14,10 +15,16 @@ import pl.gregsApp.dish.DishService;
 import pl.gregsApp.order.OrderRepository;
 import pl.gregsApp.pdfMaker.PdfCreate;
 
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.Collection;
-import java.util.List;
-import java.util.Map;
+
 
 @Controller
 @RequestMapping("/api/dish")
@@ -73,8 +80,9 @@ public class DishController {
 
         return "dishListForUsers";
     }
-    @ModelAttribute("makePdf") // pdf do poprawy, cos nie gra todo
-    public void makePdf(Model model){
+
+    @GetMapping("dishList/pdf") // pdf do poprawy, cos nie gra todo
+    public String makePdf(Model model){
         Model pdfModel = model.addAttribute("pdf", dishRepository.findAll());
         PdfCreate pdfCreate = new PdfCreate();
         try{
@@ -82,6 +90,15 @@ public class DishController {
         } catch (FileNotFoundException | DocumentException e){
             e.printStackTrace();
         }
+//        int CONNECT_TIMEOUT = 10000;
+//        int READ_TIMEOUT = 10000;
+//        try {
+//            FileUtils.copyURLToFile(new URL(pdfModel.toString()), new File("testowo.pdf"), CONNECT_TIMEOUT, READ_TIMEOUT);
+//        }catch (IOException e){
+//            e.printStackTrace();
+//        }
+        return "redirect:/api/dish/dishList";
+
 
     }
 
