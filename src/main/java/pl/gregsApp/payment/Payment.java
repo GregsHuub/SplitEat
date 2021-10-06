@@ -10,8 +10,6 @@ public class Payment {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String paymentType;
-    //
-
 
     public Long getId() {
         return id;

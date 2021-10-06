@@ -13,10 +13,6 @@ public class UserDetailsImpl implements UserDetails {
     private String password;
     private boolean enabled;
 
-    public UserDetailsImpl() {
-    }
-
-
     public UserDetailsImpl(User user) {
         this.email = user.getEmail();
         this.password = user.getPassword();

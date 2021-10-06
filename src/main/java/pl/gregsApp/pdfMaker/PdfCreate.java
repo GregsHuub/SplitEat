@@ -19,8 +19,6 @@ public class PdfCreate {
         Chunk chunkTitle = new Chunk("List of Dishes", font);
         Chunk chunk = new Chunk(inputedText, font);
 
-
-
         document.add(chunkTitle);
         document.add(new Paragraph("\n"));
         document.add(chunk);
